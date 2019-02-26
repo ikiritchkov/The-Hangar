@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin : 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Napalm Vertigo";
+    src: url("../font/Napalm_Vertigo/NAPAV___.eot?") format('eot'),
+    url("../font/Napalm_Vertigo/NAPAV___.woff") format('woff'),
+    url("../font/Napalm_Vertigo/NAPAV___.ttf") format("truetype"),
+    url("../font/Napalm_Vertigo/NAPAV___.svg#NapalmVertigo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    position: relative;
+    z-index: 2;
+    font-family: 'Napalm Vertigo', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header img {
+    width: 10%;
+    height: 10%;
+}
+
+#header h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#background-video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#footer {
+    position: fixed;
+    bottom: 1vh;
+    z-index: 2;
+}
+
+#currentTime {
+    font-family: 'Napalm Vertigo', cursive;
+}
+
+#content {
+    position: relative;
+    z-index: 2;
+    padding: 1vw;
+    font-size: 26px;
+    justify-content: center;
+    display: flex;
+    background: grey;
+    border: 3px black double;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content input {
+    padding: 2vh;
+    font-size: 20px;
+    margin: 1.5vh;
+    border: 2px solid black;
+    font-family: "Napalm Vertigo", cursive;
+    text-align: center;
+}
+
+
+#lastNameLabel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Napalm Vertigo", cursive;
+}
+
+
+#lastNamesDisplay {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: left;
+    background: grey;
+    width: 22%;
+    height: 45vh;
+    padding: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px black double;
+    overflow-y: scroll;
+    font-family: "Napalm Vertigo", cursive;
+}
+
+#lastNamesDisplay ul {
+    padding: 0;
+    margin: 0;
+}
+
+.lastNamesDisplayLi {
+    list-style-type: none;
+    padding: 2vh;
+    margin: 0;
+    font-size: 20px;
+}
+
+#lastNamesDisplay li:hover {
+    background: white;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.lastNamesDisplaySelected {
+    background: white;
+    border: 1px solid black;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 2vh;
+    margin: 0;
+}
+
+#enterTheHangar {
+    position: fixed;
+    right: -13%;
+    bottom: 40%;
+    z-index: 2;
+}
+
+.enterTheHangarShow {
+    visibility: visible;
+}
+
+.enterTheHangarHidden {
+    visibility: hidden;
+}
+
+#enterTheHangar img {
+    width: 30%;
+    height: auto;
+}

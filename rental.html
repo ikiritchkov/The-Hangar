@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Hangar</title>
+    <!--The icon for this page was modified and originally downloaded from:-->
+    <link rel="shortcut icon" href="photo/army%20logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/rental.css" />
+    <!-- jQuery - latest compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/military.json"></script>
+    <script type="text/javascript" src="js/rental.js"></script>
+</head>
+<body>
+<audio src="music/crazytrain.mp3" autoplay="true" loop volume="0.2"></audio>
+    <!--https://www.shutterstock.com/video/clip-22172722-stock-footage-camouflage-seamless-animated-pattern-military-background-waving-camo-green-fabric-texture.html-->
+    <img src="photo/rentalhangar.png" alt="rental hangar">
+</video>
+<div id="background-inner">
+    <div id="header">
+        <h1>SELECT A VEHICLE</h1>
+    </div>
+    <div id="vehicles">
+        <img src="photo/helicopter.gif" alt="helicopter" id="helicopter" onclick="vehicleSelected(this)"/>
+        <img src="photo/abrams.png" alt="tank" id="tank" onclick="vehicleSelected(this)"/>
+        <img src="photo/apc.png" alt="apc" id="apc" onclick="vehicleSelected(this)"/>
+        <img src="photo/saucer.gif" alt="saucer" id="saucer" onclick="vehicleSelected(this)"/>
+    </div>
+    <div id="whiteBoardDiv">
+        <img src="photo/whiteboard.png" alt="whiteboard" id="whiteboard"/>
+    </div>
+    <div id="rentalCostDiv">
+        <h3>Rental Pricing</h3>
+        <div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
